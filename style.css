@@ -11,8 +11,26 @@ body{
     font-size: 5vh;
     font-family: 'Satisfy', cursive;
 }
+
 #date1{
     text-align: center;
     font-family: 'Satisfy', cursive;
     font-family: 'Montserrat', sans-serif;
+    height: 20vh;
+    line-height: 20vh;
+}
+
+#date2{
+    height: 20vh;
+    line-height: 20vh;
+}
+
+.task{
+    color:black;
+    transition: 0.4s;
+}
+
+.task:hover
+{
+    color: rgb(67, 80, 197);
 }
