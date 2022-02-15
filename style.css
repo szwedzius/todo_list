@@ -34,9 +34,46 @@ body{
 .task:hover
 {
     color: rgb(67, 80, 197);
+    cursor: pointer;
 }
 
 .taskdone{
     color: rgb(36, 117, 79);
     text-decoration: line-through;
+}
+
+#another
+{
+    height: 20vh;
+    line-height: 20vh;
+    text-align: center;
+}
+
+#another2
+{
+    padding-top: 7.5vh;
+}
+
+@media screen and (max-width: 768px) {
+    .rig{
+        text-align: right;
+    }
+    #another{
+        float: right;
+    }
+}
+
+.point
+{
+    height: 10vh;
+    line-height: 10vh;
+}
+
+#task_input
+{
+    width:100%;
+    background-color: rgb(180, 159, 134);
+    border: 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    outline: none;
 }

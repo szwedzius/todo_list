@@ -20,12 +20,26 @@
         <div class="row">
                 <div class="col-7" id="date1">Your todo list for:</div>
                 <div class="col-5" id="date2">15.02.2022</div>
+                <hr>
+        </div>
+        
+        <div class="row" id="task_list">
+            <div class="col-6 col-md-4">
+                <div class="point task" id="0" onclick="remove('0')">Do the dishes</div>
+            </div>
+            <div class="col-6 col-md-4 offset-md-4">
+                <div class="point task rig" id="1" onclick="remove('1')">Laundry making</div>
+            </div>
+            
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-7" id="another">Add another task TO DO: &Tab;</div>
+            <div class="col-5 col-sm-4 col-sm-offset-1" id="another2"> <input type="text" id="task_input" placeholder="something really cool" ></div>
         </div>
         <div class="row">
-            <div class="col-1"></div>
-            <div class="col-4">
-                <div class="task" id="1" onclick="remove('1')">Do the dishes</div>
-                
+            <div class="col offset-7">
+                <input type="button" id="accept_button" onclick="add()" value="Add">
             </div>
         </div>
     </div>
