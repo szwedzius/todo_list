@@ -1,6 +1,7 @@
 body{
     background-color: rgb(180, 159, 134);
     font-size: 3vh;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #top{
@@ -8,7 +9,10 @@ body{
     height: 10vh;
     line-height: 10vh;
     font-size: 5vh;
+    font-family: 'Satisfy', cursive;
 }
 #date1{
     text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
