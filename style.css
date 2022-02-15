@@ -27,10 +27,15 @@ body{
 
 .task{
     color:black;
+    text-align: left;
     transition: 0.4s;
 }
 
 .task:hover
 {
     color: rgb(67, 80, 197);
+}
+
+.taskdone{
+    color: rgb(36, 117, 79);
 }
