@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(180, 159, 134);
+    font-size: 3vh;
+}
+
+#top{
+    text-align: center;
+    height: 10vh;
+    line-height: 10vh;
+    font-size: 5vh;
+}
+#date1{
+    text-align: center;
+}
