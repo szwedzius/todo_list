@@ -38,4 +38,5 @@ body{
 
 .taskdone{
     color: rgb(36, 117, 79);
+    text-decoration: line-through;
 }
