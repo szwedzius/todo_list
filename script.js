@@ -1,6 +1,13 @@
 id = document.getElementsByClassName('point').length;
 console.log(id);
 
+let today = new Date();
+let date = today.getDate() + `.` + (today.getMonth() + 1) + `.` + today.getFullYear();
+
+window.onload = () => {
+    document.getElementById("date2").innerHTML = date;
+}
+
 
 
 function remove(ID)
