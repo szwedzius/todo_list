@@ -86,3 +86,17 @@ body{
     line-height: 2vh;
     margin-bottom:3vh;
 }
+
+#accept_button
+{
+    border-radius: 5px;
+    border: 1px solid rgb(255,255,255);
+    height: 5vh;
+    width: 7vw;
+    transition: 0.2s;
+}
+
+#accept_button:hover
+{
+    opacity: 0.8;
+}
