@@ -44,7 +44,7 @@ body{
 
 #another
 {
-    height: 20vh;
+    height: 13vh;
     line-height: 20vh;
     text-align: center;
 }
@@ -76,4 +76,13 @@ body{
     border: 0;
     border-bottom: 1px solid rgb(0, 0, 0);
     outline: none;
+}
+
+#err
+{
+    color:rgb(153, 25, 25);
+    font-size: 2vh;
+    height: 5vh;
+    line-height: 2vh;
+    margin-bottom:3vh;
 }
