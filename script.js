@@ -21,7 +21,7 @@ function remove(ID)
 
 function add()
 {
-    if(document.getElementById("task_input").value.length < 15)
+    if(document.getElementById("task_input").value.length < 15 && document.getElementById("task_input").value.length > 0)
     {
         if(id%2==0)
         {
@@ -38,7 +38,7 @@ function add()
     }
     else
     {
-        document.getElementById("err").innerHTML = "You need to give shorter input just to ensure that you aren't trying to break the site"
+        document.getElementById("err").innerHTML = "You need to give a valid input just to ensure that you aren't trying to break the site"
     }
 
     
